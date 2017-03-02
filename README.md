@@ -4,8 +4,8 @@ This is based heavily on [bmwshop's sensehat](https://github.com/bmwshop/senseha
 
 To use, 
 
-docker build -t sense .
+docker build -t sensehat .
 
-docker run --privileged -dp 5000:5000 sense
+docker run --privileged -dp 5000:5000 sensehat
 
 And then open a browser to the address of the docker container.
