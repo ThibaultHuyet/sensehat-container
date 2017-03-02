@@ -5,6 +5,7 @@ This is based heavily on [bmwshop's sensehat](https://github.com/bmwshop/senseha
 To use, 
 
 docker build -t sense .
+
 docker run --privileged -dp 5000:5000 sense
 
 And then open a browser to the address of the docker container.
